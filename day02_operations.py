@@ -27,18 +27,25 @@ def firstmethod():
 
 
 def Calc(first, second, operation):
-    print(first, second, operation)
+    print(f"İlk sayı: {first}, İkinci sayi: {second}, Operasyon: {operation}")
     match operation:
         case 1:
             sonuc = first + second
-            print(sonuc)
+            print("-------------------------")
+            print(f"Sonuç: {sonuc}")
         case 2:
             sonuc = first - second
-            print(sonuc)
+            print("-------------------------")
+            print(f"Sonuç: {sonuc}")
         case 3:
             sonuc = first * second
-            print(sonuc)
+            print("-------------------------")
+            print(f"Sonuç: {sonuc}")
         case 4:
             sonuc = first // second
-            print(sonuc)
+            print("-------------------------")
+            print(f"Sonuç: {sonuc}")
+
+if __name__ == "__main__":
+    main()
 
